@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Footer */
+
+.footer {
+  background-image: url('https://www.jigsawacademy.com/wp-content/uploads/2020/12/CS-01-6-1024x352.jpg');
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.9;
+  background-position: bottom;
+}
+
+/* About Us BackGround Image */
+
+.footer-1:hover {
+  color: #c6064c;
+  margin-left: 2px;
+  margin-top: 2px;
+  transition: 0.5s;
+}
+
+/* News Card Related */
+
+.imgHov:hover {
+  margin-top: -5px;
+  transition: 0.6s;
+}
+
+/* Buttons */
+
+.btn-1 {
+  color: white;
+  background-color: #d80650;
+  position: relative;
+  transition: ease-out 0.6s;
+  z-index: 1;
+}
+
+.btn-1:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0e0129;
+}
+
+.btn-1::before {
+  transition: 0.6s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #d80650;
+}
+
+.btn-1:hover:before {
+  transition: 0.6s all ease;
+  left: 50%;
+  right: 50%;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* button 2 */
+
+.btn-2 {
+  color: #0e0129;
+  background-color: white;
+  position: relative;
+  transition: ease-out 0.6s;
+  z-index: 1;
+}
+
+.btn-2:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0e0129;
+}
+
+.btn-2::before {
+  transition: 0.6s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: white;
+}
+
+.btn-2:hover:before {
+  transition: 0.6s all ease;
+  left: 50%;
+  right: 50%;
+  opacity: 1;
+  z-index: -1;
+}
+
+/* choose Us i tag */
+
+.i-1 i {
+  color: #fff;
+  background-color: #221b31;
+}
+
+.i-1:hover i {
+  color: #221b31;
+  background-color: #fff;
+}
+
+/* Cyber Operatios li tags */
+
+.li-1 i {
+  color: #e24b69;
+  background-color: #fddae7;
+  transition: 0.6s;
+}
+
+.li-1:hover i {
+  color: #fddae7;
+  background-color: #e24b69;
+  transition: 0.6s;
+}
+
+/* NavBar Related */
+
+.li-2 {
+  color: white;
+}
+.li-2:hover {
+  color: #c6064c;
+  transition: 0.6s;
+}
+
+/* Navbar DropDown Border Related */
+.bor-b {
+  position: relative;
+  color: black;
+}
+
+.bor-b a:after {
+  content: '';
+  position: absolute;
+  background-color: #e24b69;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -3px;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.bor-b a:hover:after {
+  width: 100%;
+}
+
+.bor-b a:hover {
+  color: #fff;
+  background: #0e052a;
+}
+
+/* Header Related */
+
+.header1 {
+  color: white;
+}
+
+.header1:hover {
+  color: #c6064c;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+/* Logo session */
+
+.loGo {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+
+.loGo:hover .overlay {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  height: 120px;
+  width: 120px;
+  opacity: 0.3;
+}
+
+.image-1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 120px;
+  width: 96px;
+  display: block;
+}
+
+.overlayBottom {
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.loGo:hover .overlayBottom {
+  height: 100%;
+}
+
+/* Effective Home Corner */
+
+.corner {
+  align-self: flex-end;
+  height: 0;
+  width: 0;
+  margin-top: -20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 40px solid #f9b2cb;
+  border-left: 40px solid transparent;
+}
+
+.homeCard {
+  color: black;
+  background-color: #fef4f8;
+  position: relative;
+  transition: ease-out 0.6s;
+  z-index: 1;
+}
+
+.homeCard i {
+  background-color: #ec385d;
+  color: white;
+  /* round image or flip image */
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.homeCard:hover {
+  color: white;
+  background-color: #ec385d;
+  margin-top: -5px;
+  transition: 0.6s;
+}
+
+.homeCard:hover i {
+  color: #ec385d;
+  background-color: white;
+  transition: 0.6s;
+  /* round or flip image 360 degree */
+  transform: perspective(1000px) rotateY(360deg);
+}
+
+.homeCard::before {
+  transition: 0.6s all ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  content: '';
+  background-color: #fff;
+}
+
+.homeCard:hover:before {
+  transition: 0.6s all ease;
+  left: 100%;
+  opacity: 1;
+  z-index: -1;
+}
+
+.homeCard:hover > .corner {
+  margin-bottom: 5px;
+}
+
+/* CLient */
+
+.corner-1 {
+  align-self: flex-end;
+  height: 0;
+  width: 0;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-top: 40px solid #fff;
+  border-left: 40px solid transparent;
+}

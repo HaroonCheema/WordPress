@@ -3,31 +3,25 @@
 import emailjs from 'emailjs-com';
 import React from 'react';
 
+const SERVICE_ID = 'service_djw0qxm';
+const TEMPLATE_ID = 'template_dt5f1lv';
+const USER_ID = 'user_CTG39jK1NlCiFdAANgJJF';
+
 export default function Email() {
   // onsubmit method
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        // servise-Id
-        'service_djw0qxm',
-        // template-Name
-        'template_dt5f1lv',
-        e.target,
-        // user-Id
-        'user_CTG39jK1NlCiFdAANgJJF'
-      )
-      .then(
-        (result) => {
-          // console success message
-          console.log(result.text);
-        },
-        (error) => {
-          // console error message
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID).then(
+      (result) => {
+        // console success message
+        console.log(result.text);
+      },
+      (error) => {
+        // console error message
+        console.log(error.text);
+      }
+    );
     // after form submit reset auto all fields
     e.target.reset();
   };

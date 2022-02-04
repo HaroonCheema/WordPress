@@ -5,184 +5,222 @@ export default function Footer() {
     <>
       {/* Footer */}
       <div
-        className="row py-md-5 justify-content-end bg-image text-light mx-0"
+        className='row py-md-5 justify-content-end bg-image text-light mx-0'
         style={{
-          backgroundColor: '#090218'
-        
+          backgroundColor: '#090218',
         }}
       >
-        <div className="py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5">
-          <h3 className="text-decoration-underline">Contact Info</h3>
-          <div className="footer-1">
-            <h6 className="pt-2 fw-bold">
-              <i
-                className="fal fa-phone-volume pe-3"
-                style={{ color: '#c6064c' }}
-              ></i>
-              Hotline:
-            </h6>
-            <h6 className="ps-5">Phone: +61-821-456</h6>
-          </div>
-          <div className="footer-1">
-            <h6 className="pt-2 fw-bold">
-              <i
-                className="fal fa-envelope pe-3"
-                style={{ color: '#c6064c' }}
-              ></i>
-              Email:
-            </h6>
-            <h6 className="ps-5">hello@vaximo.com</h6>
-          </div>
-          <h6 className="pt-2 fw-bold">
-            <i
-              className="far fa-map-marker-plus pe-3"
-              style={{ color: '#c6064c' }}
-            ></i>
-            Address:
-          </h6>
-          <h6 className="ps-5">123,Western Road,Melbourne Australia</h6>
-        </div>
+        <div className='py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5'>
+          {/* Col # 1 */}
 
-        <div className="py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5">
-          <h3 className="text-decoration-underline">Services Links</h3>
-          <h6 className="pt-2 footer-1">
+          <h3 className='text-decoration-underline'>Quick Link</h3>
+
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Treat Hunter
+            Extended Validation Cert
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Incident Responder
+            Domain Vetted Cert
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Secure Managed IT
+            Organization Certificates
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Compliance
+            Server SSL Certificates
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Cyber Security
+            Email & Documents Signing
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Disaster Planning
+            Free Tools
           </h6>
         </div>
 
-        <div className="py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5 ps-lg-3">
-          <h3 className="text-decoration-underline">Quick Support</h3>
-          <h6 className="pt-2 footer-1">
+        {/* Col # 2 */}
+
+        <div className='py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5'>
+          <h3 className='text-decoration-underline'>Partners</h3>
+
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Contact Us
+            Partner Program Overview
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Reseller Program
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Affiliate Program
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            API & Integrations
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            WHMCS Module
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            AutoInstall SSL
+          </h6>
+        </div>
+
+        {/* Col # 3 */}
+
+        <div className='py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5 ps-lg-3'>
+          <h3 className='text-decoration-underline'>Company</h3>
+
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Blog
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            SSL Clients
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Case Studies
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Why Choose Us
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            SSL Videos
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Resources
+          </h6>
+        </div>
+
+        {/* Col # 4 */}
+
+        <div className='py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5 ps-lg-0'>
+          <h3 className='text-decoration-underline'>Support</h3>
+
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            SSL Support
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
+              style={{ color: '#c6064c' }}
+            ></i>
+            Manage Your Account
+          </h6>
+          <h6 className='pt-2 footer-1'>
+            <i
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
             FAQ
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Privacy Policy
+            SSL Installation Service
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Terms & Conditions
+            Contact Us
           </h6>
-          <h6 className="pt-2 footer-1">
+          <h6 className='pt-2 footer-1'>
             <i
-              className="fas fa-chevron-double-right pe-3"
+              className='fas fa-chevron-double-right pe-3'
               style={{ color: '#c6064c' }}
             ></i>
-            Team
-          </h6>
-        </div>
-
-        <div className="py-3 py-sm-3 py-md-3 col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ps-5 ps-lg-0">
-          <h3 className="text-decoration-underline">Quick Links</h3>
-          <h6 className="pt-2 footer-1">
-            <i
-              className="fas fa-chevron-double-right pe-3"
-              style={{ color: '#c6064c' }}
-            ></i>
-            About
-          </h6>
-          <h6 className="pt-2 footer-1">
-            <i
-              className="fas fa-chevron-double-right pe-3"
-              style={{ color: '#c6064c' }}
-            ></i>
-            Services
-          </h6>
-          <h6 className="pt-2 footer-1">
-            <i
-              className="fas fa-chevron-double-right pe-3"
-              style={{ color: '#c6064c' }}
-            ></i>
-            Testimonials
-          </h6>
-          <h6 className="pt-2 footer-1">
-            <i
-              className="fas fa-chevron-double-right pe-3"
-              style={{ color: '#c6064c' }}
-            ></i>
-            COntact Us
-          </h6>
-          <h6 className="pt-2 footer-1">
-            <i
-              className="fas fa-chevron-double-right pe-3"
-              style={{ color: '#c6064c' }}
-            ></i>
-            Pricing
+            Request a Callback
           </h6>
         </div>
       </div>
+
       {/* Copy Rights */}
-      <div
-        className="container-fluid"
-        style={{ backgroundColor: '#05224c' }}
-      >
-        <div className="row justify-content-between ps-md-5 ms-md-3 py-3 text-light">
-          <div className="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-            <h5 className="fw-bold">
-              Copyright @2022 <span className="header1">SSLs.Pk</span> .All
+
+      <div className='container-fluid' style={{ backgroundColor: '#05224c' }}>
+        <div className='row justify-content-between ps-md-5 ms-md-3 py-3 text-light'>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6'>
+            <h5 className='fw-bold'>
+              Copyright @2022 <span className='header1'>SSLs.Pk</span> .All
               Rights Reserved.
             </h5>
           </div>
-          <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 ms-md-5 ">
-            <h5 className="fw-bold">
-              <span className="header1">Terms & Conditions</span> -{' '}
-              <span className="header1">Privacy Policy</span>
+          <div className='col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 ms-md-5 '>
+            <h5 className='fw-bold'>
+              <span className='header1'>Terms & Conditions</span> -{' '}
+              <span className='header1'>Privacy Policy</span>
             </h5>
           </div>
         </div>

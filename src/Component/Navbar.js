@@ -12,7 +12,7 @@ export default function Navbar() {
         }}
       >
         <div className='container-fluid'>
-          <h1 className='fw-bold ps-5'>
+          <h1 className='fw-bold ps-5 mx-xl-5'>
             <a className='text-light text-decoration-none' href='#'>
               SSLs.Pk
             </a>
@@ -30,8 +30,8 @@ export default function Navbar() {
           </button>
           <div className='collapse navbar-collapse' id='navbarSupportedContent'>
             <ul
-              className='navbar-nav me-auto mb-2 mb-lg-0 py-2 fw-bold mx-xl-5 px-0 py-0'
-              style={{ paddingLeft: '170px' }}
+              className='navbar-nav me-auto mb-2 mb-lg-0 py-2 fw-bold mx-xl-5'
+              style={{ paddingLeft: '300px' }}
             >
               <li className='nav-item dropdown ms-xl-5 ms-lg-0'>
                 <a
